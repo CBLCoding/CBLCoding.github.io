@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsivestyles.css">
 </head>
-<body>
+<body class="wrapper">
     <header>
         <h1>Contact Me</h1>
         <nav>
@@ -17,7 +18,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="form-container">
             <h2>Get in Touch</h2>
             <form action="thank-you.html" method="get">
                 <label for="name">Name:</label>
@@ -32,11 +33,9 @@
             </form>
         </section>
     </main>
-
     <footer>
         <p>&copy; <span id="year"></span> Charles Looney | <a href="https://www.github.com/cblcoding" target="_blank">My GitHub</a></p>
     </footer>
-
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
