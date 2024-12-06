@@ -19,24 +19,25 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="photo-gallery">
-            <div class="photo-container">
-                <img src="image1.jpg" alt="Photo 1">
-                <img src="image2.jpg" alt="Photo 2">
-                <img src="image3.jpg" alt="Photo 3">
-            </div>
-        </section>
+        <main>
+            <section class="photo-gallery">
+                <div class="photo-container">
+                    <img src="images/image1.jpg" alt="Photo 1">
+                </div>
+            </section>
         <hr>
         <br>      
-        <main>
             <div class="main-grid">
                 <div class="sub-grid">
                     <div class="grid-item about">
                         <h2>About Me</h2>
                         <hr>
                         <br>
-                        <p>Hi! I'm [Your Name], a web development enthusiast currently pursuing a degree in Computer Information Science. I have a passion for building responsive, user-friendly websites and continually strive to enhance my skills.</p>
+                        <p>
+                            Thanks for stopping by! I'm Charlie, a little late to the party but never late to work or a meeting. 
+                            I'm a web development enthusiast currently pursuing a degree in Computer Information Science. 
+                            I have a passion for building responsive, user-friendly websites and continually strive to enhance my skills.
+                        </p>
                     </div>
                         <div class="grid-item skills">
                         <h2>My Skills</h2>
@@ -80,20 +81,22 @@
                     </div>
                 </div>
                     <div class="grid-item music">
-                    <h2>My Band Second Start:</h2>
+                    <h2>My Band:</h2>
+                    <br>
+                    <img src="images/trans-6.png" alt="band logo" width="130">
                     <hr>
                     <br>
                     <p>"Untitled (What Went Wrong?)":</p>
                     <br>
                     <audio controls>
-                        <source src="audio/your-song.mp3" type="audio/mpeg">
+                        <source src="songs/Untitled_master.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
             </div>
         </main>        
     <footer>
-        <p>&copy; <span id="year"></span> Charles Looney | <a href="https://www.github.com/cblcoding"" target="_blank">My GitHub</a></p>
+        <p>&copy; <span id="year"></span> Charles Looney | <a href="https://www.github.com/cblcoding" target="_blank"><img src="images/github-mark/github-mark-white.png" alt="github logo" width="20"></a></p>
     </footer>
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
