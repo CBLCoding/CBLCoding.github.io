@@ -7,6 +7,8 @@
     --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Completed by Charles Looney Web Dev Final */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +20,8 @@ body {
     margin: 0 auto;
     padding: 2rem;
     font-family: Arial, sans-serif;
-    background: #ffffff url(images/Brick_in_Finland.jpg) no-repeat center center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('images/Brick_in_Finland.jpg') no-repeat center center;
     background-size: cover;
     color: var(--text-color);
 }
