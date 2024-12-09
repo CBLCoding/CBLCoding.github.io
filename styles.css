@@ -36,6 +36,8 @@ header {
     border-radius: 12px 12px 0 0;
 }
 
+/* Navigation */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -58,6 +60,7 @@ main {
     margin: 2rem 0;
 }
 
+/* Photo */
 .photo-container {
     display: flex;
     justify-content: center;
@@ -72,6 +75,8 @@ main {
     border-radius: 8px;
     box-shadow: var(--box-shadow);
 }
+
+/* Grid */
 
 .main-grid {
     display: grid;
@@ -101,6 +106,8 @@ main {
     margin: 0 auto;
 }
 
+/* Song */
+
 audio {
     width: 100%;
     outline: none;
@@ -111,6 +118,8 @@ h2 {
     margin-bottom: 1rem;
     color: var(--primary-color);
 }
+
+/* Table */
 
 table {
     width: 100%;
@@ -142,7 +151,7 @@ section {
     margin-bottom: 2rem;
 }
 
-/* Form Styling */
+/* Form  */
 form {
     display: flex;
     flex-direction: column;
@@ -194,6 +203,8 @@ button:hover {
     text-align: left;
     color: var(--text-color);
 }
+
+/* Footer */
 
 footer {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
